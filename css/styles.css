@@ -124,6 +124,22 @@ ul {
     color: #404BBF;
 }
 
+/*==================::after================*/
+
+.line::after {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    content: '';
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
+
+
+
+
 /*====================HERO===================*/
 .hero {
     background-color: #2e2f42;
@@ -133,6 +149,9 @@ ul {
         rgba(46, 47, 66, 0.70)
       ),
         url(../images/people-office.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
 
 }
 .main-title {
