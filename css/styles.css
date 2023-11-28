@@ -248,28 +248,39 @@ margin-bottom: 8px;
         padding: 120px 0;
     }
 
-.social-container {
 
-}
 
 .social-list {
    display: flex;
    justify-content: center;
+   align-items: center;
    gap: 24px;
-}
-.social-list-iten {
-    width: 40px;
+   margin-top: 8px;
+   width: 40px;
     height: 40px;
     border-radius: 50px;
     background-color: #4D5AE5;
+}
+.social-list-iten {
+
+    
+ 
 
 }
 .social-list-link {
-    display: flex;
+    display: block;
     justify-content: center;
+    align-items: center;
     width: 16px;
     height: 16px;
-    
+    border-radius: 50px;
+    background-color: #4D5AE5;
+    fill: #F4F4FD;
+  
+}
+.social-list-icon {
+    width: 16px;
+    height: 16px;
 }
 .title-three {
     color: #2E2F42;
