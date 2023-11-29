@@ -380,4 +380,12 @@ color: #F4F4FD;
 }
 .footer-container {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link {
+    color:#ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+   margin-bottom: 16px;
 }
