@@ -275,32 +275,35 @@ margin-bottom: 8px;
    align-items: center;
    column-gap: 24px;
    margin-top: 8px;
-   width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #4D5AE5;
+  
+    
+    
 }
-.social-list-iten {  }
+.social-list-iten { 
+    display: flex;
+}
     
  
 .social-list-link {
 display: block;
 }
 
-/*.social-list-link {
-    display: block;
+.social-list-link {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 16px;
-    height: 16px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     background-color: #4D5AE5;
     fill: #F4F4FD;
   
-}*/
+}
 .social-list-icon {
+    display: block;
     width: 16px;
     height: 16px;
+ 
 }
 .title-three {
     color: #2E2F42;
