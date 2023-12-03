@@ -59,7 +59,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 .page-header {
     
@@ -145,7 +145,7 @@ ul {
     height: 4px;
     border-radius: 2px;
     background-color: #404BBF;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 
@@ -374,7 +374,7 @@ display: block;
     color: #F4F4FD;
     background-color: #4D5AE5;
     padding: 40px 32px;
-
+    line-height: 1.5;
 
     transform: translateY(100%);
     /*overflow: auto;
@@ -480,4 +480,11 @@ color: #F4F4FD;
 }
 .footer-class-logo {
     margin-right: 120px;
+}
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
 }
